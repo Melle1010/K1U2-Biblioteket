@@ -37,4 +37,8 @@ Vyer (Views): Genom View_ActiveLoans flyttas komplex JOIN-logik från applikatio
 Eager Loading: I C#-koden används .Include() för att hämta relaterad data i ett enda anrop till databasen, vilket minimerar antalet "rundresor" (N+1-problemet).
 
 ---
+## En Execution Plan
+I den bifogade exekveringsplanen ser man bevis på systemets optimering. Bland annat används en Index Seek (NonClustered) på tabellen BookReturn. Detta bekräftar att det manuella indexet IX_BookReturn_LoanId fyller sin funktion och tillåter databasen att snabbt filtrera bort återlämnade böcker utan en fullständig tabellskanning. Vidare ser vi att kopplingar mellan lån, medlemmar och böcker sker via Clustered Index Seeks, vilket garanterar minimalt resursutnyttjande vid sökning på primärnycklar.
+<img width="1789" height="887" alt="image" src="https://github.com/user-attachments/assets/d69cec1c-77e1-4989-8403-1af3629843a2" />
+
 
