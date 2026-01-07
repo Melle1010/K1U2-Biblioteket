@@ -14,4 +14,5 @@ Systemet är byggt för att automatisera och säkra ett biblioteks dagliga drift
 
 ---
 
-<img width="4293" height="1674" alt="erdplus (3)" src="https://github.com/user-attachments/assets/cc6b9928-9ed7-4439-9e39-b9c81ab0f08a" />
+<img width="1524" height="690" alt="image" src="https://github.com/user-attachments/assets/22bd4f3b-5c4f-46ab-91df-ebf42a8e1e16" />
+
