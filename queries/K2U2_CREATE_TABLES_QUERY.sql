@@ -15,7 +15,7 @@ CREATE TABLE Book(
 -- Create Table For Loan
 CREATE TABLE Loan(
 	LoanId INT IDENTITY(1,1) PRIMARY KEY,
-	LoanDate DATE NOT NULL,
+	LoanDate DATETIME NOT NULL,
 	FkMemberId INT NOT NULL,
 	FkBookId INT NOT NULL,
 	CONSTRAINT FK_Loan_Member FOREIGN KEY (FkMemberId) REFERENCES LibraryMember(MemberId),
@@ -25,9 +25,10 @@ CREATE TABLE Loan(
 -- Create Table For Book Return
 CREATE TABLE BookReturn(
 	ReturnId INT IDENTITY(1,1) PRIMARY KEY,
-	ReturnDate DATE NOT NULL,
+	ReturnDate DATETIME NOT NULL,
 	FkLoanId INT NOT NULL,
 	CONSTRAINT FK_BookReturn_Loan FOREIGN KEY (FkLoanId) REFERENCES Loan(LoanId),
 )
+
 
 
