@@ -42,7 +42,7 @@ Indexering: I indexes.sql har jag skapat icke-klustrade index på Book(Title) oc
 
 Vyer (Views): Genom View_ActiveLoans flyttas komplex JOIN-logik från applikationen till databasen, vilket förenklar koden och optimerar frågekörningen.
 
-Eager Loading: I C#-koden används .Include() för att hämta relaterad data i ett enda anrop till databasen, vilket minimerar antalet "rundresor" (N+1-problemet).
+Eager Loading: I C#-koden används .Include() för att hämta relaterad data i ett enda anrop till databasen.
 
 ---
 ## En Execution Plan
