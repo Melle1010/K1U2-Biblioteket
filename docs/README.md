@@ -15,6 +15,11 @@ Systemet är byggt för att automatisera och säkra ett biblioteks dagliga drift
 * **Låneflöde:** Registrering av utlåning där systemet kontrollerar att boken finns i lager.
 * **Återlämning:** Automatiserad uppdatering av lagersaldo när en bok lämnas tillbaka.
 
+<img width="1000" height="708" alt="image" src="https://github.com/user-attachments/assets/9dbbd752-ff40-44ae-a634-5f4a5f41d40f" />
+<img width="1262" height="546" alt="image" src="https://github.com/user-attachments/assets/395bf68f-13d8-4b7b-9623-c478be38b71c" />
+<img width="1311" height="370" alt="image" src="https://github.com/user-attachments/assets/d50de05f-7c07-44aa-ae38-c79f4506f6d3" />
+
+
 ---
 
 <img width="1524" height="690" alt="image" src="https://github.com/user-attachments/assets/22bd4f3b-5c4f-46ab-91df-ebf42a8e1e16" />
