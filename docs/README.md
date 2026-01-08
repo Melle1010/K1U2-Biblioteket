@@ -1,4 +1,4 @@
-# K1U2-Biblioteket
+# K2U2-Biblioteket
 # Bibliotekssystemet K2U2
 
 Detta är ett administrativt verktyg för bibliotekshantering, utvecklat som en konsolapplikation i **.NET 10** med **Entity Framework Core** och en **SQL Server**-databas. Systemet hanterar medlemmar, böcker, utlåning och återlämning med fokus på dataintegritet och prestanda.
